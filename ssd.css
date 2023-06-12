@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  main {
+    padding: 20px;
+  }
+
+  .product {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .product img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .product-details {
+    flex-grow: 1;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .Inicio1 {
+    position: absolute;
+    top: 13px;
+    left: 1550px;
+    padding: 20px;
+}
+.Productos1 {
+    position: absolute;
+    top: 13px;
+    left: 1620px;
+    padding: 20px;
+}
+.Contacto1 {
+    position: absolute;
+    top: 13px;
+    left: 1700px;
+    padding: 20px;
+}
+
+.G1 {
+    position: relative;
+    top: 40px;
+    right: 850px;
+    color: gray;
+    display: auto;
+    font-size: 11px;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+}
+
+.text {
+    position: relative;
+    top: 60px;
+    right: 870px;
+    font-size: 20px;
+}
+
+.D1 {
+    position: absolute;
+    left: 580px;
+    display: grid;
+    top: 160px;
+    margin: 1px; right: 550px; padding: 0px;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.logo {
+    font-size: 2rem;
+    background:-webkit-linear-gradient(120deg, hsl(318, 94%, 61%), hsl(239, 92%, 46%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
